@@ -1,0 +1,12 @@
+{
+  "profile": {
+    "id": 1,
+    "username": "John Wick",
+    "status": "Single",
+    "address_1": "The Continental",
+    "address_2": "Fictional",
+    "carType": "Sedan",
+    "budget": 1000,
+    "accommodationType": "Entire Place"
+  }
+}
