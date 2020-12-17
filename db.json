@@ -8,5 +8,22 @@
     "carType": "Sedan",
     "budget": 1000,
     "accommodationType": "Entire Place"
-  }
+  },
+  "trips": [
+    {
+      "id": 1,
+      "start": "New York",
+      "end": "Boston"
+    },
+    {
+      "id": 2,
+      "start": "Los Angeles",
+      "end": "Nevada"
+    },
+    {
+      "id": 3,
+      "start": "Houston",
+      "end": "Lafayette"
+    }
+  ]
 }
