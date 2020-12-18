@@ -65,6 +65,57 @@
           "state": "CA"
         }
       ]
+    },
+    {
+      "tripName": "testing",
+      "itinerary": [
+        {
+          "name": "Black Light Mini Golf",
+          "category": "Mini Golf",
+          "lat": 60.50380367319127,
+          "lng": -151.16699920678334,
+          "city": "Kalifornsky",
+          "state": "AK"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "tripName": "New trip 4",
+      "itinerary": [
+        {
+          "name": "Dark Matter Coffee",
+          "category": "Coffee Shop",
+          "address": "738 N Western Ave",
+          "lat": 41.89514572614215,
+          "lng": -87.68689981010728
+        }
+      ],
+      "id": 4
+    },
+    {
+      "tripName": "New trip 5",
+      "itinerary": [
+        {
+          "name": "NR",
+          "category": "Cocktail Bar",
+          "address": "339 E 75th St",
+          "lat": 40.770082,
+          "lng": -73.954978,
+          "city": "New York",
+          "state": "NY"
+        },
+        {
+          "name": "The Bar Room at Temple Court",
+          "category": "Hotel Bar",
+          "address": "123 Nassau St",
+          "lat": 40.7114477287544,
+          "lng": -74.00680157032005,
+          "city": "New York",
+          "state": "NY"
+        }
+      ],
+      "id": 5
     }
   ]
 }
