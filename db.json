@@ -9,21 +9,62 @@
     "budget": 1000,
     "accommodationType": "Entire Place"
   },
-  "trips": [
+  "myTrips": [
     {
       "id": 1,
-      "start": "New York",
-      "end": "Boston"
+      "tripName": "New York City",
+      "startDate": "March 20, 2021",
+      "endDate": "March 23, 2021",
+      "itinerary": [
+        {
+          "id": 1,
+          "name": "Empire State Building",
+          "category": "Building",
+          "address": "350 5th Ave",
+          "lat": 40.7485995507123,
+          "lng": -73.98580648682452,
+          "city": "New York",
+          "state": "NY"
+        },
+        {
+          "id": 2,
+          "name": "Metropolitan Museum of Art",
+          "category": "Art Museum",
+          "address": "1000 5th Ave",
+          "lat": 40.77972902126812,
+          "lng": -73.96341562271118,
+          "city": "New York",
+          "state": "NY"
+        }
+      ]
     },
     {
       "id": 2,
-      "start": "Los Angeles",
-      "end": "Nevada"
-    },
-    {
-      "id": 3,
-      "start": "Houston",
-      "end": "Lafayette"
+      "tripName": "Los Angeles",
+      "startDate": "April 20, 2021",
+      "endDate": "April 23, 2021",
+      "itinerary": [
+        {
+          "id": 1,
+          "name": "Paramount Pictures Studio Tour",
+          "category": "Film Studio",
+          "address": "5555 Melrose Ave",
+          "lat": 34.08499088858611,
+          "lng": -118.31952012885453,
+          "city": "Los Angeles",
+          "state": "CA"
+        },
+        {
+          "id": 2,
+          "name": "Griffith Observatory",
+          "category": "Observatory",
+          "address": "2800 E Observatory Ave",
+          "lat": 34.11834210562594,
+          "lng": -118.30035746097563,
+          "city": "Los Angeles",
+          "state": "CA"
+        }
+      ]
     }
   ]
 }
