@@ -1,6 +1,12 @@
 {
   "profile": {
-    
+    "name": "John Doe",
+    "status": "Single",
+    "address_1": "123 street",
+    "address_2": "fairenuf",
+    "carType": "SUV",
+    "preferredBudget": 1000,
+    "accommodationType": "sharedRoom"
   },
   "myTrips": [
     {
