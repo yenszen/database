@@ -1,78 +1,37 @@
 {
   "profile": {
-    "name": "John Doe",
-    "status": "Single",
-    "address_1": "123 street",
-    "address_2": "fairenuf",
-    "carType": "SUV",
-    "preferredBudget": 1000,
-    "accommodationType": "sharedRoom"
+    "user_name": "John Doe",
+    "status": "family",
+    "address_1": "Faircliff Ave",
+    "address_2": "Louisville",
+    "carType": "sedan",
+    "budget": 3000,
+    "accommodationType": "entirePlace"
   },
   "myTrips": [
     {
-      "id": 1,
-      "tripName": "New York City",
-      "startDate": "March 20, 2021",
-      "endDate": "March 23, 2021",
+      "tripName": "New trip 1",
       "itinerary": [
         {
-          "id": 1,
-          "name": "Empire State Building",
-          "category": "Building",
-          "address": "350 5th Ave",
-          "lat": 40.7485995507123,
-          "lng": -73.98580648682452,
+          "name": "Central Park",
+          "category": "Park",
+          "address": "59th St to 110th St",
+          "lat": 40.78408342593807,
+          "lng": -73.96485328674316,
           "city": "New York",
           "state": "NY"
         },
         {
-          "id": 2,
-          "name": "Metropolitan Museum of Art",
-          "category": "Art Museum",
-          "address": "1000 5th Ave",
-          "lat": 40.77972902126812,
-          "lng": -73.96341562271118,
-          "city": "New York",
+          "name": "Brooklyn Bridge Park",
+          "category": "Park",
+          "address": "Furman St",
+          "lat": 40.702282,
+          "lng": -73.996456,
+          "city": "Brooklyn",
           "state": "NY"
         }
-      ]
-    },
-    {
-      "id": 2,
-      "tripName": "Los Angeles",
-      "startDate": "April 20, 2021",
-      "endDate": "April 23, 2021",
-      "itinerary": [
-        {
-          "id": 1,
-          "name": "Paramount Pictures Studio Tour",
-          "category": "Film Studio",
-          "address": "5555 Melrose Ave",
-          "lat": 34.08499088858611,
-          "lng": -118.31952012885453,
-          "city": "Los Angeles",
-          "state": "CA"
-        },
-        {
-          "id": 2,
-          "name": "Griffith Observatory",
-          "category": "Observatory",
-          "address": "2800 E Observatory Ave",
-          "lat": 34.11834210562594,
-          "lng": -118.30035746097563,
-          "city": "Los Angeles",
-          "state": "CA"
-        },
-        {
-          "name": "Mather Point",
-          "category": "Scenic Lookout",
-          "address": "Mather Point, S Entrance Rd",
-          "lat": 36.06084594048076,
-          "lng": -112.10782037906783,
-          "city": "Grand Canyon",
-          "state": "AZ"
-        }
-      ]
+      ],
+      "id": 1
     }
   ]
 }
