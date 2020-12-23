@@ -10,33 +10,64 @@
   },
   "myTrips": [
     {
-      "tripName": "New trip 1",
+      "tripName": "New trip to New York",
       "itinerary": [
         {
-          "name": "Lands End Lookout",
-          "category": "Scenic Lookout",
-          "address": "22 Merrie Way",
-          "lat": 37.779723,
-          "lng": -122.511576,
-          "city": "San Francisco",
-          "state": "CA"
+          "name": "9/11 Memorial North Pool",
+          "category": "Memorial Site",
+          "address": "West St",
+          "lat": 40.71207726282092,
+          "lng": -74.01318669319153,
+          "city": "New York",
+          "state": "NY"
         },
         {
-          "name": "The Secret Alley",
-          "category": "Performing Arts Venue",
-          "address": "180 Capp St",
-          "lat": 37.763763835109664,
-          "lng": -122.41935185019999,
-          "city": "San Francisco",
-          "state": "CA"
+          "id": 2,
+          "name": "Mah-Ze-Dahr Bakery",
+          "category": "Bakery",
+          "address": "28 Greenwich Ave",
+          "lat": 40.735117,
+          "lng": -74.000052,
+          "city": "New York",
+          "state": "NY"
+        },
+        {
+          "id": 3,
+          "name": "Madison Square Park",
+          "category": "Park",
+          "address": "Madison Ave",
+          "lat": 40.74226204193276,
+          "lng": -73.98800611495972,
+          "city": "New York",
+          "state": "NY"
         }
       ],
       "id": 1
     },
     {
-      "tripName": "New trip 2",
+      "tripName": "New trip to Miami",
       "itinerary": [
         {
+          "name": "The Salty Donut",
+          "category": "Donut Shop",
+          "address": "50 NW 23rd Ave #112",
+          "lat": 25.799339677389757,
+          "lng": -80.19613140816351,
+          "city": "Miami",
+          "state": "FL"
+        },
+        {
+          "id": 2,
+          "name": "Vice City Bean",
+          "category": "Coffee Shop",
+          "address": "1657 N Miami Ave",
+          "lat": 25.791671799672798,
+          "lng": -80.19416102240933,
+          "city": "Miami",
+          "state": "FL"
+        },
+        {
+          "id": 3,
           "name": "Mandarin Oriental, Miami",
           "category": "Resort",
           "address": "500 Brickell Key Dr",
@@ -44,36 +75,71 @@
           "lng": -80.1853951,
           "city": "Miami",
           "state": "FL"
-        }
-      ],
-      "id": 2
-    },
-    {
-      "tripName": "New trip 3",
-      "itinerary": [
+        },
         {
-          "name": "Zuma",
-          "category": "Japanese Restaurant",
-          "address": "270 Biscayne Boulevard Way",
-          "lat": 25.769441224079024,
-          "lng": -80.18944080347198,
+          "id": 4,
+          "name": "J Wakefield Brewing",
+          "category": "Brewery",
+          "address": "120 Northwest 24th Street",
+          "lat": 25.79951567,
+          "lng": -80.19751224,
           "city": "Miami",
           "state": "FL"
         }
       ],
-      "id": 3
+      "id": 2
     }
   ],
   "pins": [
     {
-      "id": 1,
-      "destination_name": "Famous beach",
-      "category": "Beach",
-      "address": "270 Street",
-      "lat": 25,
-      "lng": -80,
+      "destination_name": "Mrs. Mandolin",
+      "category": "Café",
+      "address": "4218 NE 2nd Ave",
+      "lat": 25.815374158850158,
+      "lng": -80.19169807434082,
       "city": "Miami",
-      "state": "FL"
+      "state": "FL",
+      "id": 2
+    },
+    {
+      "destination_name": "Flanigan's Seafood Bar & Grill",
+      "category": "American Restaurant",
+      "address": "2721 Bird Ave",
+      "lat": 25.735796939800828,
+      "lng": -80.23827935821004,
+      "city": "Coconut Grove",
+      "state": "FL",
+      "id": 3
+    },
+    {
+      "destination_name": "Levain Bakery",
+      "category": "Bakery",
+      "address": "1484 3rd Ave",
+      "lat": 40.777354,
+      "lng": -73.955284,
+      "city": "New York",
+      "state": "NY",
+      "id": 4
+    },
+    {
+      "destination_name": "All Day",
+      "category": "Café",
+      "address": "1035 N Miami Ave",
+      "lat": 25.784600000897,
+      "lng": -80.19386286955303,
+      "city": "Miami",
+      "state": "FL",
+      "id": 5
+    },
+    {
+      "destination_name": "BlackSalt",
+      "category": "Seafood Restaurant",
+      "address": "4883 MacArthur Blvd NW",
+      "lat": 38.91763033711327,
+      "lng": -77.09661935645445,
+      "city": "Washington",
+      "state": "D.C.",
+      "id": 6
     }
   ]
 }
